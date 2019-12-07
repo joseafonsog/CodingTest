@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace CodingTest.Api.Dtos.Service
+namespace CodingTest.Infrastructure.Dtos.Service
 {
     public class StoryResponseDto
     {

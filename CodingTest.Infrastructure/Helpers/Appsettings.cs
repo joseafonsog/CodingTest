@@ -1,4 +1,4 @@
-namespace CodingTest.Api.Helpers
+namespace CodingTest.Infrastructure.Helpers
 {
     public class Appsettings
     {

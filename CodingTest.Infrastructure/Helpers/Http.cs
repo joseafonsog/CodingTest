@@ -1,10 +1,9 @@
 using System;
 using System.Net.Http;
-using System.Net.Http.Formatting;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace CodingTest.Api.Helpers
+namespace CodingTest.Infrastructure.Helpers
 {
     public static class HttpHelper<T> where T : class
     {

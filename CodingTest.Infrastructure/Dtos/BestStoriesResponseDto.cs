@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace CodingTest.Api.Dtos
+namespace CodingTest.Infrastructure.Dtos
 {
     public class BestStoriesResponseDto
     {

@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CodingTest.Api.Helpers;
+using CodingTest.Admin;
+using CodingTest.Infrastructure.Helpers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +28,7 @@ namespace CodingTest.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<Appsettings>(Configuration.GetSection("Appsettings"));
+            services.AddTransient<IBestStoriesAdmin, BestStoriesAdmin>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
